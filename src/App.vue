@@ -24,6 +24,11 @@ const menusList = ref([
     url: 'https://github.com/Wangxq0614'
   },
   {
+    icon: new URL('@/assets/gitee.svg', import.meta.url).href,
+    name: 'gitee',
+    url: 'https://gitee.com/wangxq0614'
+  },
+  {
     icon: new URL('@/assets/x.svg', import.meta.url).href,
     name: 'x',
     url: 'https://twitter.com/wangxq0614'
